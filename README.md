@@ -16,5 +16,5 @@ To run the server on a local machine -
     -   MacOS: `source venv/bin/activate`
 -   Install dependencies using `pip install -r requirements.txt`
 -   Run the app using `python main.py`  
-    You will see a few prompts. To continue, simply press enter a copule times.
+    You will see a few prompts. To continue, simply press enter a couple times.
 -   To see the site in action, open a browser and navigate to `http://127.0.0.1:5000/`

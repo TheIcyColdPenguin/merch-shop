@@ -27,14 +27,12 @@ def get_data():
             c.execute(
                 f'SELECT * FROM ITEMS WHERE apparel LIKE "%{item_name}%" OR material LIKE "%{item_name}%"')
             data = [i[1:] for i in c.fetchall()]
-            print(data)
 
-    except Exception as e:
-        print(e)
+    except Exception:
         return jsonify([])
 
     return jsonify(data)
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
